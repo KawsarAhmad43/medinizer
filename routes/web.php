@@ -27,8 +27,6 @@ Route::middleware([
     })->name('dashboard');
 });
 
-
-
 Route::get('/test', function () {
-    return view('backend.index');
+    return view('backend.dashboard');
 });

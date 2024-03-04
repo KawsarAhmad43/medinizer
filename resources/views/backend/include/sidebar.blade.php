@@ -11,10 +11,10 @@
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-                <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                <img src="{{ asset('assets/backend/images/OIP.jpg') }}" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-                <a href="#" class="d-block">Alexander Pierce</a>
+                <a href="#" class="d-block">Ahmad</a>
             </div>
         </div>
 
@@ -42,7 +42,7 @@
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-table"></i>
                         <p>
-                            Tables
+                            Documents
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
@@ -56,7 +56,20 @@
 
                     </ul>
                 </li>
+                {{-- user logout --}}
+                <li class="nav-item mt-5">
+                    <a href="" class="nav-link lg-out" style="background-color: rgba(0, 0, 0, 0.226)">
 
+                        <center>
+                            <i class="nav-icon far fa-window-close"></i>
+                            <p>
+                                Logout
+                            </p>
+                        </center>
+
+                    </a>
+                </li>
+                {{--  --}}
             </ul>
         </nav>
         <!-- /.sidebar-menu -->
