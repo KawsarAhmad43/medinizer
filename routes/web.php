@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Backend\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,3 +31,10 @@ Route::middleware([
 Route::get('/test', function () {
     return view('backend.dashboard');
 });
+
+Route::get('/lihan', function () {
+    return view('backend.pages.profile.user');
+});
+
+
+Route::get('/user-profile', [ProfileController::class, 'showProfile'])->name('userProfile');

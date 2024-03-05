@@ -20,3 +20,5 @@
 <link rel="stylesheet" href="{{ asset('assets/backend/plugins/daterangepicker/daterangepicker.css') }}">
 <!-- summernote -->
 <link rel="stylesheet" href="{{ asset('assets/backend/plugins/summernote/summernote-bs4.min.css') }}">
+{{-- profile --}}
+<link rel="stylesheet" href="{{ asset('assets/auth/css/style.css') }}">
